@@ -1,0 +1,826 @@
+{
+  "meta": {
+    "title": "Ninjago Dragons Rising Top Trumps",
+    "totalCards": 54,
+    "lastUpdated": "2026-04-04",
+    "statLabels": {
+      "strength": "\u2694\ufe0f Strength",
+      "speed": "\ud83d\udca8 Speed",
+      "skill": "\ud83c\udf00 Skill",
+      "dragonPower": "\ud83d\udc09 Dragon Power",
+      "intelligence": "\ud83e\udde0 Intelligence"
+    }
+  },
+  "cards": [
+    {
+      "id": 1,
+      "name": "Lloyd",
+      "role": "Green Ninja",
+      "type": "hero",
+      "element": "Life",
+      "stats": {
+        "strength": 17,
+        "speed": 15,
+        "skill": 19,
+        "dragonPower": 14,
+        "intelligence": 18
+      },
+      "description": "The legendary Green Ninja, master of Energy and leader of the ninja team after the Merge."
+    },
+    {
+      "id": 2,
+      "name": "Kai",
+      "role": "Fire Ninja",
+      "type": "hero",
+      "element": "Fire",
+      "stats": {
+        "strength": 18,
+        "speed": 14,
+        "skill": 16,
+        "dragonPower": 11,
+        "intelligence": 10
+      },
+      "description": "Hot-headed master of fire whose fiery spirit is matched only by his blazing fists."
+    },
+    {
+      "id": 3,
+      "name": "Nya",
+      "role": "Water Ninja",
+      "type": "hero",
+      "element": "Water",
+      "stats": {
+        "strength": 14,
+        "speed": 17,
+        "skill": 16,
+        "dragonPower": 12,
+        "intelligence": 15
+      },
+      "description": "Master of water, reunited with Kai. Calm as the ocean \u2014 until she strikes."
+    },
+    {
+      "id": 4,
+      "name": "Arin",
+      "role": "Apprentice Ninja",
+      "type": "hero",
+      "element": "Object Spinjitzu",
+      "stats": {
+        "strength": 12,
+        "speed": 14,
+        "skill": 11,
+        "dragonPower": 17,
+        "intelligence": 9
+      },
+      "description": "A huge fan of the Ninja who discovered his own powers. Brave, loyal and still growing."
+    },
+    {
+      "id": 5,
+      "name": "Sora",
+      "role": "Elemental Master of Technology",
+      "type": "hero",
+      "element": "Technology",
+      "stats": {
+        "strength": 11,
+        "speed": 13,
+        "skill": 16,
+        "dragonPower": 15,
+        "intelligence": 19
+      },
+      "description": "A technopath from Imperium who can interface with machines. Brains over brawn."
+    },
+    {
+      "id": 6,
+      "name": "Wyldfyre",
+      "role": "Dragon-Raised Warrior",
+      "type": "hero",
+      "element": "Heat",
+      "stats": {
+        "strength": 14,
+        "speed": 18,
+        "skill": 13,
+        "dragonPower": 20,
+        "intelligence": 8
+      },
+      "description": "Raised by dragons in the wild. Fierce, untamed and speaks dragon better than people."
+    },
+    {
+      "id": 7,
+      "name": "Riyu",
+      "role": "Baby Dragon",
+      "type": "hero",
+      "element": "Multi-Element",
+      "stats": {
+        "strength": 9,
+        "speed": 15,
+        "skill": 7,
+        "dragonPower": 20,
+        "intelligence": 7
+      },
+      "description": "An adorable but powerful young dragon bonded to the ninja team."
+    },
+    {
+      "id": 8,
+      "name": "Frak",
+      "role": "Elemental Master of Quake",
+      "type": "hero",
+      "element": "Quake",
+      "stats": {
+        "strength": 17,
+        "speed": 12,
+        "skill": 12,
+        "dragonPower": 11,
+        "intelligence": 8
+      },
+      "description": "A big-hearted Serpentine and master of Quake. Slow but hits like an earthquake."
+    },
+    {
+      "id": 9,
+      "name": "Master Wu",
+      "role": "Spinjitzu Grandmaster",
+      "type": "hero",
+      "element": "Creation",
+      "stats": {
+        "strength": 16,
+        "speed": 11,
+        "skill": 20,
+        "dragonPower": 15,
+        "intelligence": 20
+      },
+      "description": "The ancient teacher whose wisdom surpasses almost everyone \u2014 and whose staff hits even harder."
+    },
+    {
+      "id": 10,
+      "name": "P.I.X.A.L.",
+      "role": "Nindroid Warrior",
+      "type": "hero",
+      "element": "None",
+      "stats": {
+        "strength": 15,
+        "speed": 16,
+        "skill": 14,
+        "dragonPower": 7,
+        "intelligence": 18
+      },
+      "description": "Part Nindroid, all ninja. Her analytical mind and combat systems make her formidable."
+    },
+    {
+      "id": 11,
+      "name": "Egalt",
+      "role": "Dragon Master",
+      "type": "hero",
+      "element": "None",
+      "stats": {
+        "strength": 15,
+        "speed": 9,
+        "skill": 15,
+        "dragonPower": 18,
+        "intelligence": 14
+      },
+      "description": "Elder Dragon Master who teaches the Rising Dragon technique. Stoic, powerful and wise."
+    },
+    {
+      "id": 12,
+      "name": "Rontu",
+      "role": "Dragon Master",
+      "type": "hero",
+      "element": "None",
+      "stats": {
+        "strength": 13,
+        "speed": 12,
+        "skill": 14,
+        "dragonPower": 17,
+        "intelligence": 12
+      },
+      "description": "Rontu trains alongside Egalt on the Dragon Masters' plateau."
+    },
+    {
+      "id": 13,
+      "name": "Arc Dragon of Focus",
+      "role": "Guardian of the Merged Realms",
+      "type": "hero",
+      "element": "Focus",
+      "stats": {
+        "strength": 20,
+        "speed": 18,
+        "skill": 15,
+        "dragonPower": 20,
+        "intelligence": 16
+      },
+      "description": "Summoned in two halves by the ninja to defeat Thunderfang. When united, its power is near-unstoppable."
+    },
+    {
+      "id": 14,
+      "name": "Cole",
+      "role": "Earth Ninja",
+      "type": "hero",
+      "element": "Earth",
+      "stats": {
+        "strength": 18,
+        "speed": 12,
+        "skill": 15,
+        "dragonPower": 11,
+        "intelligence": 12
+      },
+      "description": "The steadfast master of Earth. Cole's strength and reliability are the bedrock of the ninja team."
+    },
+    {
+      "id": 15,
+      "name": "Jay",
+      "role": "Lightning Ninja",
+      "type": "hero",
+      "element": "Lightning",
+      "stats": {
+        "strength": 14,
+        "speed": 19,
+        "skill": 16,
+        "dragonPower": 10,
+        "intelligence": 14
+      },
+      "description": "The fast-talking master of Lightning, working as a bounty hunter after the Merge before rejoining the ninja."
+    },
+    {
+      "id": 16,
+      "name": "Roby",
+      "role": "Games Master",
+      "type": "hero",
+      "element": "None",
+      "stats": {
+        "strength": 10,
+        "speed": 13,
+        "skill": 11,
+        "dragonPower": 9,
+        "intelligence": 16
+      },
+      "description": "Games Master of the Tournament of Sources and Wyldfyre's boyfriend. Helped expose his uncle Bleckt's cheating."
+    },
+    {
+      "id": 17,
+      "name": "Empress Beatrix",
+      "role": "Ruler of Imperium",
+      "type": "villain",
+      "element": "None",
+      "stats": {
+        "strength": 12,
+        "speed": 10,
+        "skill": 11,
+        "dragonPower": 3,
+        "intelligence": 20
+      },
+      "description": "Tyrannical ruler of Imperium who drains dragons of their life force to power her kingdom."
+    },
+    {
+      "id": 18,
+      "name": "Lord Ras",
+      "role": "Elemental Master of Shadow",
+      "type": "villain",
+      "element": "Shadow",
+      "stats": {
+        "strength": 18,
+        "speed": 16,
+        "skill": 20,
+        "dragonPower": 5,
+        "intelligence": 17
+      },
+      "description": "The dark master of Shatterspin who leads the Shadow Dojo against the ninja."
+    },
+    {
+      "id": 19,
+      "name": "Cinder",
+      "role": "Elemental Master of Smoke",
+      "type": "villain",
+      "element": "Smoke",
+      "stats": {
+        "strength": 16,
+        "speed": 17,
+        "skill": 17,
+        "dragonPower": 4,
+        "intelligence": 11
+      },
+      "description": "Wolf Clan's deadliest fighter and Shatterspin master. Broke Wyldfyre's leg without breaking a sweat."
+    },
+    {
+      "id": 20,
+      "name": "Rapton",
+      "role": "Imperium Commander",
+      "type": "villain",
+      "element": "None",
+      "stats": {
+        "strength": 15,
+        "speed": 13,
+        "skill": 13,
+        "dragonPower": 2,
+        "intelligence": 11
+      },
+      "description": "Commander of the Claws of Imperium. Relentless dragon hunter who follows orders without mercy."
+    },
+    {
+      "id": 21,
+      "name": "Jordana",
+      "role": "Imperium Agent",
+      "type": "villain",
+      "element": "None",
+      "stats": {
+        "strength": 9,
+        "speed": 15,
+        "skill": 11,
+        "dragonPower": 3,
+        "intelligence": 17
+      },
+      "description": "Scientist and spy who extracted Source Dragon energy for Beatrix. Was possessed by Rox during the Blood Moon ritual."
+    },
+    {
+      "id": 22,
+      "name": "Nokt",
+      "role": "Elemental Master of Brute Force",
+      "type": "villain",
+      "element": "Brute Force",
+      "stats": {
+        "strength": 16,
+        "speed": 14,
+        "skill": 17,
+        "dragonPower": 4,
+        "intelligence": 14
+      },
+      "description": "Master of darkness in the Forbidden Five. Moves like nightfall \u2014 unseen until too late."
+    },
+    {
+      "id": 23,
+      "name": "Rox",
+      "role": "Elemental Master of Fear",
+      "type": "villain",
+      "element": "Fear",
+      "stats": {
+        "strength": 18,
+        "speed": 15,
+        "skill": 17,
+        "dragonPower": 3,
+        "intelligence": 11
+      },
+      "description": "The brute of the Forbidden Five. Immovable as rock and just as likely to crush you flat."
+    },
+    {
+      "id": 24,
+      "name": "Zarkt",
+      "role": "Elemental Master of Misfortune",
+      "type": "villain",
+      "element": "Misfortune",
+      "stats": {
+        "strength": 15,
+        "speed": 15,
+        "skill": 14,
+        "dragonPower": 3,
+        "intelligence": 12
+      },
+      "description": "Electric and unpredictable. Zarkt brings crackling chaos to every battle."
+    },
+    {
+      "id": 25,
+      "name": "Drix",
+      "role": "Elemental Master of Swarm",
+      "type": "villain",
+      "element": "Swarm",
+      "stats": {
+        "strength": 14,
+        "speed": 12,
+        "skill": 13,
+        "dragonPower": 2,
+        "intelligence": 16
+      },
+      "description": "A corrosive menace. Drix's powers eat through armour, shields and ninja confidence alike."
+    },
+    {
+      "id": 26,
+      "name": "Kur",
+      "role": "Elemental Master of Decay",
+      "type": "villain",
+      "element": "Decay",
+      "stats": {
+        "strength": 16,
+        "speed": 11,
+        "skill": 14,
+        "dragonPower": 2,
+        "intelligence": 15
+      },
+      "description": "Master of the void \u2014 a terrifying absence of everything, including mercy."
+    },
+    {
+      "id": 27,
+      "name": "Dr. LaRow",
+      "role": "Imperium Scientist",
+      "type": "villain",
+      "element": "Technology",
+      "stats": {
+        "strength": 6,
+        "speed": 7,
+        "skill": 5,
+        "dragonPower": 1,
+        "intelligence": 18
+      },
+      "description": "The brilliant and cruel scientist behind Imperium's dragon-draining technology."
+    },
+    {
+      "id": 28,
+      "name": "Dorama",
+      "role": "Pyrotechnician Showman",
+      "type": "villain",
+      "element": "None",
+      "stats": {
+        "strength": 10,
+        "speed": 12,
+        "skill": 9,
+        "dragonPower": 1,
+        "intelligence": 14
+      },
+      "description": "A deranged former showman who built dragon-draining tech for Imperium. Fights with fireworks, giant puppets and an unshakeable flair for the dramatic."
+    },
+    {
+      "id": 29,
+      "name": "Bleckt",
+      "role": "Corrupt Tournament Minister",
+      "type": "villain",
+      "element": "None",
+      "stats": {
+        "strength": 8,
+        "speed": 7,
+        "skill": 6,
+        "dragonPower": 3,
+        "intelligence": 17
+      },
+      "description": "Roby's treacherous uncle and former Minister of Ledgering. Rigged the Tournament of Sources for Ras \u2014 until Wyldfyre and Zur brought him down."
+    },
+    {
+      "id": 30,
+      "name": "Thunderfang",
+      "role": "Shatter Dragon of Chaos",
+      "type": "villain",
+      "element": "Chaos",
+      "stats": {
+        "strength": 20,
+        "speed": 18,
+        "skill": 5,
+        "dragonPower": 19,
+        "intelligence": 7
+      },
+      "description": "A monstrous storm dragon. Thunder rolls wherever Thunderfang flies."
+    },
+    {
+      "id": 31,
+      "name": "Zeatrix",
+      "role": "Elemental Master of Shockwave",
+      "type": "villain",
+      "element": "Shockwave",
+      "stats": {
+        "strength": 15,
+        "speed": 14,
+        "skill": 15,
+        "dragonPower": 3,
+        "intelligence": 13
+      },
+      "description": "Twin sister of Empress Beatrix. She commands devastating shockwaves with cold precision."
+    },
+    {
+      "id": 32,
+      "name": "Wolf Mask Warrior",
+      "role": "Wolf Clan Soldier",
+      "type": "villain",
+      "element": "None",
+      "stats": {
+        "strength": 14,
+        "speed": 13,
+        "skill": 12,
+        "dragonPower": 2,
+        "intelligence": 7
+      },
+      "description": "Ras's wolf-masked footsoldiers. Individually beatable \u2014 but they never come alone."
+    },
+    {
+      "id": 33,
+      "name": "Arrakore",
+      "role": "Djinn Sorcerer",
+      "type": "hero",
+      "element": "None",
+      "stats": {
+        "strength": 12,
+        "speed": 11,
+        "skill": 14,
+        "dragonPower": 11,
+        "intelligence": 18
+      },
+      "description": "A powerful Djinn who teleports several ninja to Djinjago. His wish magic is as unpredictable as it is potent."
+    },
+    {
+      "id": 34,
+      "name": "Geo",
+      "role": "Elemental Master of Fusion",
+      "type": "hero",
+      "element": "Fusion",
+      "stats": {
+        "strength": 11,
+        "speed": 10,
+        "skill": 12,
+        "dragonPower": 8,
+        "intelligence": 15
+      },
+      "description": "A Munce-Geckle hybrid and member of the Finders. Rejected by both tribes, he found his place fighting alongside the ninja."
+    },
+    {
+      "id": 35,
+      "name": "Heatwave",
+      "role": "Guardian Dragon",
+      "type": "hero",
+      "element": "Heat",
+      "stats": {
+        "strength": 18,
+        "speed": 16,
+        "skill": 13,
+        "dragonPower": 18,
+        "intelligence": 9
+      },
+      "description": "The dragon who raised Wyldfyre from infancy. Captured by Imperium and freed by Lloyd \u2014 their bond runs deeper than blood."
+    },
+    {
+      "id": 36,
+      "name": "Gandalaria",
+      "role": "High Sorceress of Mysterium",
+      "type": "hero",
+      "element": "None",
+      "stats": {
+        "strength": 7,
+        "speed": 9,
+        "skill": 18,
+        "dragonPower": 10,
+        "intelligence": 17
+      },
+      "description": "Ancient sorceress of Mysterium. Created Bonzle to imprison the Forbidden Five."
+    },
+    {
+      "id": 37,
+      "name": "Zane",
+      "role": "Ice Ninja",
+      "type": "hero",
+      "element": "Ice",
+      "stats": {
+        "strength": 15,
+        "speed": 14,
+        "skill": 17,
+        "dragonPower": 10,
+        "intelligence": 18
+      },
+      "description": "The titanium Nindroid ninja. Cold precision and perfect logic wrapped in gleaming armour."
+    },
+    {
+      "id": 38,
+      "name": "Lord Garmadon",
+      "role": "Dark Lord",
+      "type": "villain",
+      "element": "Destruction",
+      "stats": {
+        "strength": 19,
+        "speed": 12,
+        "skill": 18,
+        "dragonPower": 8,
+        "intelligence": 17
+      },
+      "description": "Lloyd's fearsome father and master of destruction. Four arms, zero mercy \u2014 and a complicated relationship with his son."
+    },
+    {
+      "id": 39,
+      "name": "Claw of Imperium",
+      "role": "Imperium Soldier",
+      "type": "villain",
+      "element": "None",
+      "stats": {
+        "strength": 12,
+        "speed": 11,
+        "skill": 10,
+        "dragonPower": 1,
+        "intelligence": 6
+      },
+      "description": "The elite soldiers of Empress Beatrix, deployed to hunt and capture dragons across the Merged Realms."
+    },
+    {
+      "id": 40,
+      "name": "Koko",
+      "role": "Reformed Warrior",
+      "type": "hero",
+      "element": "None",
+      "stats": {
+        "strength": 15,
+        "speed": 14,
+        "skill": 16,
+        "dragonPower": 7,
+        "intelligence": 17
+      },
+      "description": "Lloyd's mother and a formidable warrior in her own right. She walked away from darkness \u2014 but never lost her edge."
+    },
+    {
+      "id": 42,
+      "name": "Tox",
+      "role": "Elemental Master of Poison",
+      "type": "hero",
+      "element": "Poison",
+      "stats": {
+        "strength": 11,
+        "speed": 12,
+        "skill": 13,
+        "dragonPower": 2,
+        "intelligence": 14
+      },
+      "description": "A veteran Elemental Master of Poison who competed in both the Tournament of Elements and Tournament of Sources. Quietly dangerous."
+    },
+    {
+      "id": 43,
+      "name": "Mr. Pale",
+      "role": "Elemental Master of Light",
+      "type": "hero",
+      "element": "Light",
+      "stats": {
+        "strength": 10,
+        "speed": 13,
+        "skill": 12,
+        "dragonPower": 2,
+        "intelligence": 15
+      },
+      "description": "The elusive Elemental Master of Light. His blinding power dazzles opponents before they even know the fight has started."
+    },
+    {
+      "id": 44,
+      "name": "Bonzle",
+      "role": "Living Spell",
+      "type": "hero",
+      "element": "None",
+      "stats": {
+        "strength": 2,
+        "speed": 6,
+        "skill": 17,
+        "dragonPower": 4,
+        "intelligence": 17
+      },
+      "description": "A mysterious living spell created by Gandalaria, capable of sealing the Forbidden Five. Small but extraordinarily powerful in the right hands."
+    },
+    {
+      "id": 45,
+      "name": "Zanth",
+      "role": "Djinjagan Dragon",
+      "type": "hero",
+      "element": "None",
+      "stats": {
+        "strength": 16,
+        "speed": 20,
+        "skill": 15,
+        "dragonPower": 19,
+        "intelligence": 14
+      },
+      "description": "Sora's loyal dragon companion and one of Djinjago's last survivors. Can shift from pocket-sized to enormous \u2014 and flies fast enough to turn purple."
+    },
+    {
+      "id": 46,
+      "name": "Jiro",
+      "role": "Lightning Dragon",
+      "type": "hero",
+      "element": "Lightning",
+      "stats": {
+        "strength": 16,
+        "speed": 19,
+        "skill": 14,
+        "dragonPower": 18,
+        "intelligence": 12
+      },
+      "description": "The fastest dragon in the ninja's stable. Bonded with Nya, upgraded by Sora. Strikes with electrokinetic breath and shields allies with his wings."
+    },
+    {
+      "id": 47,
+      "name": "Euphrasia",
+      "role": "Elemental Master of Wind",
+      "type": "hero",
+      "element": "Wind",
+      "stats": {
+        "strength": 10,
+        "speed": 17,
+        "skill": 15,
+        "dragonPower": 8,
+        "intelligence": 16
+      },
+      "description": "Cloud Kingdom's quiet protector. Hid her Wind powers until the kingdom needed her most \u2014 now one of Lloyd's students."
+    },
+    {
+      "id": 48,
+      "name": "Lobbo",
+      "role": "Mech Racer",
+      "type": "hero",
+      "element": "None",
+      "stats": {
+        "strength": 10,
+        "speed": 18,
+        "skill": 9,
+        "dragonPower": 4,
+        "intelligence": 10
+      },
+      "description": "Loveable robot and Crossroads legend. Won the Mech Master 5000 by accident \u2014 and runs Lobbo's Totally Rad Arcade. Lobbo Lobbo."
+    },
+    {
+      "id": 49,
+      "name": "Kreel",
+      "role": "Junkyard Boss",
+      "type": "villain",
+      "element": "None",
+      "stats": {
+        "strength": 11,
+        "speed": 17,
+        "skill": 13,
+        "dragonPower": 3,
+        "intelligence": 14
+      },
+      "description": "Scheming mech racer and Crossroads junkyard owner. Runs the Whack Rats and a podcast. Always working an angle."
+    },
+    {
+      "id": 50,
+      "name": "Arc Dragon of Life",
+      "role": "Guardian of the Whispering Wood",
+      "type": "hero",
+      "element": "Life",
+      "stats": {
+        "strength": 16,
+        "speed": 15,
+        "skill": 14,
+        "dragonPower": 19,
+        "intelligence": 17
+      },
+      "description": "Ancient guardian of the Whispering Wood who reveals Lloyd's true destiny. Wise, powerful and deeply connected to the Life element."
+    },
+    {
+      "id": 51,
+      "name": "Earth Monster",
+      "role": "Elemental Monster of Tar",
+      "type": "villain",
+      "element": "Earth",
+      "stats": {
+        "strength": 19,
+        "speed": 8,
+        "skill": 9,
+        "dragonPower": 6,
+        "intelligence": 5
+      },
+      "description": "A corrupted being born from elemental imbalance. Pure destructive force \u2014 slow, merciless and almost impossible to stop."
+    },
+    {
+      "id": 52,
+      "name": "Mutation Monster",
+      "role": "Elemental Monster of Mutation",
+      "type": "villain",
+      "element": "Life",
+      "stats": {
+        "strength": 14,
+        "speed": 11,
+        "skill": 8,
+        "dragonPower": 7,
+        "intelligence": 4
+      },
+      "description": "Grotesque creature of corrupted Life energy. Unpredictable and disturbing rather than powerful. Fought by Nya."
+    },
+    {
+      "id": 53,
+      "name": "Ice Monster",
+      "role": "Elemental Monster of Frostbite",
+      "type": "villain",
+      "element": "Ice",
+      "stats": {
+        "strength": 16,
+        "speed": 13,
+        "skill": 7,
+        "dragonPower": 5,
+        "intelligence": 4
+      },
+      "description": "Hard, cold and relentless. A corrupted Ice elemental being with no cunning \u2014 just frozen, unstoppable force."
+    },
+    {
+      "id": 54,
+      "name": "Acid Monster",
+      "role": "Elemental Monster of Acid",
+      "type": "villain",
+      "element": "Water",
+      "stats": {
+        "strength": 13,
+        "speed": 15,
+        "skill": 8,
+        "dragonPower": 5,
+        "intelligence": 4
+      },
+      "description": "Fluid and corrosive. Faster than the Earth Monster but equally mindless \u2014 a corrupted Water elemental unleashed on the Merged Realms."
+    },
+    {
+      "id": 55,
+      "name": "Fire Monster",
+      "role": "Elemental Monster of Magma",
+      "type": "villain",
+      "element": "Fire",
+      "stats": {
+        "strength": 17,
+        "speed": 14,
+        "skill": 7,
+        "dragonPower": 6,
+        "intelligence": 4
+      },
+      "description": "A blazing force of corrupted Fire energy. Second only to the Earth Monster in raw destructive power."
+    }
+  ]
+}

@@ -25,7 +25,8 @@
         "dragonPower": 14,
         "intelligence": 18
       },
-      "description": "The legendary Green Ninja, master of Energy and leader of the ninja team after the Merge."
+      "description": "The legendary Green Ninja, master of Energy and leader of the ninja team after the Merge.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/lloyd.jpg"
     },
     {
       "id": 2,
@@ -40,7 +41,11 @@
         "dragonPower": 11,
         "intelligence": 10
       },
-      "description": "Hot-headed master of fire whose fiery spirit is matched only by his blazing fists."
+      "description": "Hot-headed master of fire whose fiery spirit is matched only by his blazing fists.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/kai.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 25%"
+      }
     },
     {
       "id": 3,
@@ -55,7 +60,11 @@
         "dragonPower": 12,
         "intelligence": 15
       },
-      "description": "Master of water, reunited with Kai. Calm as the ocean \u2014 until she strikes."
+      "description": "Master of water, reunited with Kai. Calm as the ocean \u2014 until she strikes.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/nya.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 22%"
+      }
     },
     {
       "id": 4,
@@ -70,7 +79,11 @@
         "dragonPower": 17,
         "intelligence": 9
       },
-      "description": "A huge fan of the Ninja who discovered his own powers. Brave, loyal and still growing."
+      "description": "A huge fan of the Ninja who discovered his own powers. Brave, loyal and still growing.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/arin.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 18%"
+      }
     },
     {
       "id": 5,
@@ -85,7 +98,8 @@
         "dragonPower": 15,
         "intelligence": 19
       },
-      "description": "A technopath from Imperium who can interface with machines. Brains over brawn."
+      "description": "A technopath from Imperium who can interface with machines. Brains over brawn.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/sora.jpg"
     },
     {
       "id": 6,
@@ -100,14 +114,15 @@
         "dragonPower": 20,
         "intelligence": 8
       },
-      "description": "Raised by dragons in the wild. Fierce, untamed and speaks dragon better than people."
+      "description": "Raised by dragons in the wild. Fierce, untamed and speaks dragon better than people.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/wyldfyre.jpg"
     },
     {
       "id": 7,
       "name": "Riyu",
       "role": "Baby Dragon",
       "type": "hero",
-      "element": "Multi-Element",
+      "element": "None",
       "stats": {
         "strength": 9,
         "speed": 15,
@@ -115,7 +130,8 @@
         "dragonPower": 20,
         "intelligence": 7
       },
-      "description": "An adorable but powerful young dragon bonded to the ninja team."
+      "description": "An adorable but powerful young dragon bonded to the ninja team.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/riyu.jpg"
     },
     {
       "id": 8,
@@ -130,7 +146,8 @@
         "dragonPower": 11,
         "intelligence": 8
       },
-      "description": "A big-hearted Serpentine and master of Quake. Slow but hits like an earthquake."
+      "description": "A big-hearted Serpentine and master of Quake. Slow but hits like an earthquake.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/frak.jpg"
     },
     {
       "id": 9,
@@ -145,7 +162,8 @@
         "dragonPower": 15,
         "intelligence": 20
       },
-      "description": "The ancient teacher whose wisdom surpasses almost everyone \u2014 and whose staff hits even harder."
+      "description": "The ancient teacher whose wisdom surpasses almost everyone \u2014 and whose staff hits even harder.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/master_wu.jpg"
     },
     {
       "id": 10,
@@ -160,7 +178,11 @@
         "dragonPower": 7,
         "intelligence": 18
       },
-      "description": "Part Nindroid, all ninja. Her analytical mind and combat systems make her formidable."
+      "description": "Part Nindroid, all ninja. Her analytical mind and combat systems make her formidable.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/pixal.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 25%"
+      }
     },
     {
       "id": 11,
@@ -175,7 +197,8 @@
         "dragonPower": 18,
         "intelligence": 14
       },
-      "description": "Elder Dragon Master who teaches the Rising Dragon technique. Stoic, powerful and wise."
+      "description": "Elder Dragon Master who teaches the Rising Dragon technique. Stoic, powerful and wise.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/egalt.jpg"
     },
     {
       "id": 12,
@@ -190,7 +213,8 @@
         "dragonPower": 17,
         "intelligence": 12
       },
-      "description": "Rontu trains alongside Egalt on the Dragon Masters' plateau."
+      "description": "Rontu trains alongside Egalt on the Dragon Masters' plateau.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/rontu.jpg"
     },
     {
       "id": 13,
@@ -205,7 +229,8 @@
         "dragonPower": 20,
         "intelligence": 16
       },
-      "description": "Summoned in two halves by the ninja to defeat Thunderfang. When united, its power is near-unstoppable."
+      "description": "Summoned in two halves by the ninja to defeat Thunderfang. When united, its power is near-unstoppable.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/arc_dragon.jpg"
     },
     {
       "id": 14,
@@ -220,7 +245,11 @@
         "dragonPower": 11,
         "intelligence": 12
       },
-      "description": "The steadfast master of Earth. Cole's strength and reliability are the bedrock of the ninja team."
+      "description": "The steadfast master of Earth. Cole's strength and reliability are the bedrock of the ninja team.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/cole.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 10%"
+      }
     },
     {
       "id": 15,
@@ -235,7 +264,8 @@
         "dragonPower": 10,
         "intelligence": 14
       },
-      "description": "The fast-talking master of Lightning, working as a bounty hunter after the Merge before rejoining the ninja."
+      "description": "The fast-talking master of Lightning, working as a bounty hunter after the Merge before rejoining the ninja.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/jay.jpg"
     },
     {
       "id": 16,
@@ -250,7 +280,11 @@
         "dragonPower": 9,
         "intelligence": 16
       },
-      "description": "Games Master of the Tournament of Sources and Wyldfyre's boyfriend. Helped expose his uncle Bleckt's cheating."
+      "description": "Games Master of the Tournament of Sources and Wyldfyre's boyfriend. Helped expose his uncle Bleckt's cheating.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/roby.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 15%"
+      }
     },
     {
       "id": 17,
@@ -265,7 +299,8 @@
         "dragonPower": 3,
         "intelligence": 20
       },
-      "description": "Tyrannical ruler of Imperium who drains dragons of their life force to power her kingdom."
+      "description": "Tyrannical ruler of Imperium who drains dragons of their life force to power her kingdom.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/empress_beatrix.jpg"
     },
     {
       "id": 18,
@@ -280,7 +315,11 @@
         "dragonPower": 5,
         "intelligence": 17
       },
-      "description": "The dark master of Shatterspin who leads the Shadow Dojo against the ninja."
+      "description": "The dark master of Shatterspin who leads the Shadow Dojo against the ninja.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/lord_ras.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 10%"
+      }
     },
     {
       "id": 19,
@@ -295,7 +334,8 @@
         "dragonPower": 4,
         "intelligence": 11
       },
-      "description": "Wolf Clan's deadliest fighter and Shatterspin master. Broke Wyldfyre's leg without breaking a sweat."
+      "description": "Wolf Clan's deadliest fighter and Shatterspin master. Broke Wyldfyre's leg without breaking a sweat.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/cinder.jpg"
     },
     {
       "id": 20,
@@ -310,7 +350,8 @@
         "dragonPower": 2,
         "intelligence": 11
       },
-      "description": "Commander of the Claws of Imperium. Relentless dragon hunter who follows orders without mercy."
+      "description": "Commander of the Claws of Imperium. Relentless dragon hunter who follows orders without mercy.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/rapton.jpg"
     },
     {
       "id": 21,
@@ -325,7 +366,8 @@
         "dragonPower": 3,
         "intelligence": 17
       },
-      "description": "Scientist and spy who extracted Source Dragon energy for Beatrix. Was possessed by Rox during the Blood Moon ritual."
+      "description": "Scientist and spy who extracted Source Dragon energy for Beatrix. Was possessed by Rox during the Blood Moon ritual.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/jordana.jpg"
     },
     {
       "id": 22,
@@ -340,7 +382,8 @@
         "dragonPower": 4,
         "intelligence": 14
       },
-      "description": "Master of darkness in the Forbidden Five. Moves like nightfall \u2014 unseen until too late."
+      "description": "Master of darkness in the Forbidden Five. Moves like nightfall \u2014 unseen until too late.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/nokt.jpg"
     },
     {
       "id": 23,
@@ -355,7 +398,8 @@
         "dragonPower": 3,
         "intelligence": 11
       },
-      "description": "The brute of the Forbidden Five. Immovable as rock and just as likely to crush you flat."
+      "description": "The brute of the Forbidden Five. Immovable as rock and just as likely to crush you flat.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/rox.jpg"
     },
     {
       "id": 24,
@@ -370,7 +414,11 @@
         "dragonPower": 3,
         "intelligence": 12
       },
-      "description": "Electric and unpredictable. Zarkt brings crackling chaos to every battle."
+      "description": "Electric and unpredictable. Zarkt brings crackling chaos to every battle.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/zarkt.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 19%"
+      }
     },
     {
       "id": 25,
@@ -385,7 +433,8 @@
         "dragonPower": 2,
         "intelligence": 16
       },
-      "description": "A corrosive menace. Drix's powers eat through armour, shields and ninja confidence alike."
+      "description": "A corrosive menace. Drix's powers eat through armour, shields and ninja confidence alike.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/drix.jpg"
     },
     {
       "id": 26,
@@ -400,14 +449,15 @@
         "dragonPower": 2,
         "intelligence": 15
       },
-      "description": "Master of the void \u2014 a terrifying absence of everything, including mercy."
+      "description": "Master of the void \u2014 a terrifying absence of everything, including mercy.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/kur.jpg"
     },
     {
       "id": 27,
       "name": "Dr. LaRow",
       "role": "Imperium Scientist",
       "type": "villain",
-      "element": "Technology",
+      "element": "None",
       "stats": {
         "strength": 6,
         "speed": 7,
@@ -415,7 +465,8 @@
         "dragonPower": 1,
         "intelligence": 18
       },
-      "description": "The brilliant and cruel scientist behind Imperium's dragon-draining technology."
+      "description": "The brilliant and cruel scientist behind Imperium's dragon-draining technology.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/dr_larow.jpg"
     },
     {
       "id": 28,
@@ -430,7 +481,8 @@
         "dragonPower": 1,
         "intelligence": 14
       },
-      "description": "A deranged former showman who built dragon-draining tech for Imperium. Fights with fireworks, giant puppets and an unshakeable flair for the dramatic."
+      "description": "A deranged former showman who built dragon-draining tech for Imperium. Fights with fireworks, giant puppets and an unshakeable flair for the dramatic.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/dorama.jpg"
     },
     {
       "id": 29,
@@ -445,7 +497,8 @@
         "dragonPower": 3,
         "intelligence": 17
       },
-      "description": "Roby's treacherous uncle and former Minister of Ledgering. Rigged the Tournament of Sources for Ras \u2014 until Wyldfyre and Zur brought him down."
+      "description": "Roby's treacherous uncle and former Minister of Ledgering. Rigged the Tournament of Sources for Ras \u2014 until Wyldfyre and Zur brought him down.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/bleckt.jpg"
     },
     {
       "id": 30,
@@ -460,7 +513,11 @@
         "dragonPower": 19,
         "intelligence": 7
       },
-      "description": "A monstrous storm dragon. Thunder rolls wherever Thunderfang flies."
+      "description": "A monstrous storm dragon. Thunder rolls wherever Thunderfang flies.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/thunderfang.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 0%"
+      }
     },
     {
       "id": 31,
@@ -475,7 +532,8 @@
         "dragonPower": 3,
         "intelligence": 13
       },
-      "description": "Twin sister of Empress Beatrix. She commands devastating shockwaves with cold precision."
+      "description": "Twin sister of Empress Beatrix. She commands devastating shockwaves with cold precision.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/zeatrix.jpg"
     },
     {
       "id": 32,
@@ -490,7 +548,8 @@
         "dragonPower": 2,
         "intelligence": 7
       },
-      "description": "Ras's wolf-masked footsoldiers. Individually beatable \u2014 but they never come alone."
+      "description": "Ras's wolf-masked footsoldiers. Individually beatable \u2014 but they never come alone.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/wolf_mask_warrior.jpg"
     },
     {
       "id": 33,
@@ -505,7 +564,11 @@
         "dragonPower": 11,
         "intelligence": 18
       },
-      "description": "A powerful Djinn who teleports several ninja to Djinjago. His wish magic is as unpredictable as it is potent."
+      "description": "A powerful Djinn who teleports several ninja to Djinjago. His wish magic is as unpredictable as it is potent.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/arrakore.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 9%"
+      }
     },
     {
       "id": 34,
@@ -520,7 +583,11 @@
         "dragonPower": 8,
         "intelligence": 15
       },
-      "description": "A Munce-Geckle hybrid and member of the Finders. Rejected by both tribes, he found his place fighting alongside the ninja."
+      "description": "A Munce-Geckle hybrid and member of the Finders. Rejected by both tribes, he found his place fighting alongside the ninja.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/geo.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 20%"
+      }
     },
     {
       "id": 35,
@@ -535,7 +602,11 @@
         "dragonPower": 18,
         "intelligence": 9
       },
-      "description": "The dragon who raised Wyldfyre from infancy. Captured by Imperium and freed by Lloyd \u2014 their bond runs deeper than blood."
+      "description": "The dragon who raised Wyldfyre from infancy. Captured by Imperium and freed by Lloyd \u2014 their bond runs deeper than blood.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/heatwave.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 17%"
+      }
     },
     {
       "id": 36,
@@ -550,7 +621,11 @@
         "dragonPower": 10,
         "intelligence": 17
       },
-      "description": "Ancient sorceress of Mysterium. Created Bonzle to imprison the Forbidden Five."
+      "description": "Ancient sorceress of Mysterium. Created Bonzle to imprison the Forbidden Five.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/gandalaria.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 20%"
+      }
     },
     {
       "id": 37,
@@ -565,7 +640,8 @@
         "dragonPower": 10,
         "intelligence": 18
       },
-      "description": "The titanium Nindroid ninja. Cold precision and perfect logic wrapped in gleaming armour."
+      "description": "The titanium Nindroid ninja. Cold precision and perfect logic wrapped in gleaming armour.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/zane.jpg"
     },
     {
       "id": 38,
@@ -580,7 +656,8 @@
         "dragonPower": 8,
         "intelligence": 17
       },
-      "description": "Lloyd's fearsome father and master of destruction. Four arms, zero mercy \u2014 and a complicated relationship with his son."
+      "description": "Lloyd's fearsome father and master of destruction. Four arms, zero mercy \u2014 and a complicated relationship with his son.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/lord_garmadon.jpg"
     },
     {
       "id": 39,
@@ -595,7 +672,11 @@
         "dragonPower": 1,
         "intelligence": 6
       },
-      "description": "The elite soldiers of Empress Beatrix, deployed to hunt and capture dragons across the Merged Realms."
+      "description": "The elite soldiers of Empress Beatrix, deployed to hunt and capture dragons across the Merged Realms.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/claw_of_imperium.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 5%"
+      }
     },
     {
       "id": 40,
@@ -610,7 +691,11 @@
         "dragonPower": 7,
         "intelligence": 17
       },
-      "description": "Lloyd's mother and a formidable warrior in her own right. She walked away from darkness \u2014 but never lost her edge."
+      "description": "Lloyd's mother and a formidable warrior in her own right. She walked away from darkness \u2014 but never lost her edge.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/koko.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 9%"
+      }
     },
     {
       "id": 42,
@@ -625,7 +710,11 @@
         "dragonPower": 2,
         "intelligence": 14
       },
-      "description": "A veteran Elemental Master of Poison who competed in both the Tournament of Elements and Tournament of Sources. Quietly dangerous."
+      "description": "A veteran Elemental Master of Poison who competed in both the Tournament of Elements and Tournament of Sources. Quietly dangerous.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/tox.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 22%"
+      }
     },
     {
       "id": 43,
@@ -640,7 +729,11 @@
         "dragonPower": 2,
         "intelligence": 15
       },
-      "description": "The elusive Elemental Master of Light. His blinding power dazzles opponents before they even know the fight has started."
+      "description": "The elusive Elemental Master of Light. His blinding power dazzles opponents before they even know the fight has started.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/mr_pale.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 22%"
+      }
     },
     {
       "id": 44,
@@ -655,7 +748,11 @@
         "dragonPower": 4,
         "intelligence": 17
       },
-      "description": "A mysterious living spell created by Gandalaria, capable of sealing the Forbidden Five. Small but extraordinarily powerful in the right hands."
+      "description": "A mysterious living spell created by Gandalaria, capable of sealing the Forbidden Five. Small but extraordinarily powerful in the right hands.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/bonzle.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 10%"
+      }
     },
     {
       "id": 45,
@@ -670,7 +767,11 @@
         "dragonPower": 19,
         "intelligence": 14
       },
-      "description": "Sora's loyal dragon companion and one of Djinjago's last survivors. Can shift from pocket-sized to enormous \u2014 and flies fast enough to turn purple."
+      "description": "Sora's loyal dragon companion and one of Djinjago's last survivors. Can shift from pocket-sized to enormous \u2014 and flies fast enough to turn purple.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/zanth.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 30%"
+      }
     },
     {
       "id": 46,
@@ -685,7 +786,8 @@
         "dragonPower": 18,
         "intelligence": 12
       },
-      "description": "The fastest dragon in the ninja's stable. Bonded with Nya, upgraded by Sora. Strikes with electrokinetic breath and shields allies with his wings."
+      "description": "The fastest dragon in the ninja's stable. Bonded with Nya, upgraded by Sora. Strikes with electrokinetic breath and shields allies with his wings.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/jiro.jpg"
     },
     {
       "id": 47,
@@ -700,7 +802,11 @@
         "dragonPower": 8,
         "intelligence": 16
       },
-      "description": "Cloud Kingdom's quiet protector. Hid her Wind powers until the kingdom needed her most \u2014 now one of Lloyd's students."
+      "description": "Cloud Kingdom's quiet protector. Hid her Wind powers until the kingdom needed her most \u2014 now one of Lloyd's students.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/euphrasia.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 30%"
+      }
     },
     {
       "id": 48,
@@ -715,7 +821,8 @@
         "dragonPower": 4,
         "intelligence": 10
       },
-      "description": "Loveable robot and Crossroads legend. Won the Mech Master 5000 by accident \u2014 and runs Lobbo's Totally Rad Arcade. Lobbo Lobbo."
+      "description": "Loveable robot and Crossroads legend. Won the Mech Master 5000 by accident \u2014 and runs Lobbo's Totally Rad Arcade. Lobbo Lobbo.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/lobbo.jpg"
     },
     {
       "id": 49,
@@ -730,7 +837,11 @@
         "dragonPower": 3,
         "intelligence": 14
       },
-      "description": "Scheming mech racer and Crossroads junkyard owner. Runs the Whack Rats and a podcast. Always working an angle."
+      "description": "Scheming mech racer and Crossroads junkyard owner. Runs the Whack Rats and a podcast. Always working an angle.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/kreel.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 10%"
+      }
     },
     {
       "id": 50,
@@ -745,7 +856,8 @@
         "dragonPower": 19,
         "intelligence": 17
       },
-      "description": "Ancient guardian of the Whispering Wood who reveals Lloyd's true destiny. Wise, powerful and deeply connected to the Life element."
+      "description": "Ancient guardian of the Whispering Wood who reveals Lloyd's true destiny. Wise, powerful and deeply connected to the Life element.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/arc_dragon_life.jpg"
     },
     {
       "id": 51,
@@ -756,11 +868,12 @@
       "stats": {
         "strength": 19,
         "speed": 8,
-        "skill": 9,
+        "skill": 4,
         "dragonPower": 6,
-        "intelligence": 5
+        "intelligence": 3
       },
-      "description": "A corrupted being born from elemental imbalance. Pure destructive force \u2014 slow, merciless and almost impossible to stop."
+      "description": "A corrupted being born from elemental imbalance. Pure destructive force \u2014 slow, merciless and almost impossible to stop.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/earth_monster.jpg"
     },
     {
       "id": 52,
@@ -771,11 +884,12 @@
       "stats": {
         "strength": 14,
         "speed": 11,
-        "skill": 8,
-        "dragonPower": 7,
-        "intelligence": 4
+        "skill": 9,
+        "dragonPower": 2,
+        "intelligence": 7
       },
-      "description": "Grotesque creature of corrupted Life energy. Unpredictable and disturbing rather than powerful. Fought by Nya."
+      "description": "Grotesque creature of corrupted Life energy. Unpredictable and disturbing rather than powerful. Fought by Nya.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/mutation_monster.jpg"
     },
     {
       "id": 53,
@@ -786,11 +900,15 @@
       "stats": {
         "strength": 16,
         "speed": 13,
-        "skill": 7,
-        "dragonPower": 5,
-        "intelligence": 4
+        "skill": 5,
+        "dragonPower": 4,
+        "intelligence": 2
       },
-      "description": "Hard, cold and relentless. A corrupted Ice elemental being with no cunning \u2014 just frozen, unstoppable force."
+      "description": "Hard, cold and relentless. A corrupted Ice elemental being with no cunning \u2014 just frozen, unstoppable force.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/ice_monster.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 25%"
+      }
     },
     {
       "id": 54,
@@ -801,11 +919,15 @@
       "stats": {
         "strength": 13,
         "speed": 15,
-        "skill": 8,
-        "dragonPower": 5,
-        "intelligence": 4
+        "skill": 7,
+        "dragonPower": 3,
+        "intelligence": 5
       },
-      "description": "Fluid and corrosive. Faster than the Earth Monster but equally mindless \u2014 a corrupted Water elemental unleashed on the Merged Realms."
+      "description": "Fluid and corrosive. Faster than the Earth Monster but equally mindless \u2014 a corrupted Water elemental unleashed on the Merged Realms.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/acid_monster.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 15%"
+      }
     },
     {
       "id": 55,
@@ -816,11 +938,15 @@
       "stats": {
         "strength": 17,
         "speed": 14,
-        "skill": 7,
-        "dragonPower": 6,
-        "intelligence": 4
+        "skill": 3,
+        "dragonPower": 8,
+        "intelligence": 1
       },
-      "description": "A blazing force of corrupted Fire energy. Second only to the Earth Monster in raw destructive power."
+      "description": "A blazing force of corrupted Fire energy. Second only to the Earth Monster in raw destructive power.",
+      "image": "https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/fire_monster.jpg",
+      "imageStyle": {
+        "objectPosition": "0% 50%"
+      }
     }
   ]
 }

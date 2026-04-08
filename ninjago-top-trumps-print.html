@@ -14,7 +14,7 @@ body {
   font-family: 'Arial Black', Arial, sans-serif;
   background: #ffffff;
   padding: 20px;
-  color: #111;
+  color: #000000;
 }
 
 .page-header {
@@ -23,12 +23,12 @@ body {
 }
 .page-header h1 {
   font-size: 24px;
-  color: #0f172a;
+  color: #000000;
   letter-spacing: 2px;
 }
 .page-header p {
   font-size: 13px;
-  color: #555;
+  color: #000000;
   margin-top: 4px;
 }
 .print-btn {
@@ -102,7 +102,7 @@ body {
   letter-spacing: 0.5px;
   padding: 4px 6px;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.85);
+  color: #ffffff;
   border-bottom: 1px solid rgba(0,0,0,0.15);
 }
 
@@ -138,7 +138,7 @@ body {
 }
 .art-hint {
   font-size: 9px;
-  color: #94a3b8;
+  color: #000000;
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -189,7 +189,7 @@ body {
 
   @page {
     size: A4 portrait;
-    margin: 8mm;
+    margin: 5mm;
   }
 
   body {
@@ -204,12 +204,15 @@ body {
   }
 
   .grid {
-    grid-template-columns: repeat(3, 60mm);
+    grid-template-columns: repeat(3, 63.5mm);
     gap: 4mm;
     justify-content: center;
+    padding: 0;
   }
 
   .card {
+    width: 63.5mm;
+    min-height: 88.9mm;
     background: #ffffff !important;
     border: 1px solid #999999 !important;
     border-radius: 3mm !important;
@@ -244,13 +247,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#089000;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#089000;color:#ffffff">
     Green Ninja
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#089000">
-    <img src="images/lloyd.jpg" alt="Lloyd" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/lloyd.jpg" alt="Lloyd" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Lloyd</span>
   </div>
@@ -292,13 +295,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#e03010;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#e03010;color:#ffffff">
     Fire Ninja
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#e03010">
-    <img src="images/kai.jpg" alt="Kai" class="art-img" style="object-position:0% 25%;"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/kai.jpg" alt="Kai" class="art-img" style="object-position:0% 25%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Kai</span>
   </div>
@@ -340,13 +343,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#38bdf8;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#38bdf8;color:#ffffff">
     Water Ninja
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#38bdf8">
-    <img src="images/nya.jpg" alt="Nya" class="art-img"  style="object-position:0% 22%;"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/nya.jpg" alt="Nya" class="art-img" style="object-position:0% 22%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Nya</span>
   </div>
@@ -388,13 +391,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#fbbf24;color:rgba(0,0,0,0.75)">
+  <div class="role-strip" style="background:#fbbf24;color:#000000">
     Apprentice Ninja
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#fbbf24">
-    <img src="images/arin.jpg" alt="Arin" class="art-img"  style="object-position:0% 18%;"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/arin.jpg" alt="Arin" class="art-img" style="object-position:0% 18%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Arin</span>
   </div>
@@ -436,13 +439,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#fa5486;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#fa5486;color:#ffffff">
     Elemental Master of Technology
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#fa5486">
-    <img src="images/sora.jpg" alt="Sora" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/sora.jpg" alt="Sora" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Sora</span>
   </div>
@@ -484,13 +487,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#c2410c;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#c2410c;color:#ffffff">
     Dragon-Raised Warrior
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#c2410c">
-    <img src="images/wyldfyre.jpg" alt="Wyldfyre" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/wyldfyre.jpg" alt="Wyldfyre" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Wyldfyre</span>
   </div>
@@ -526,19 +529,19 @@ body {
 </div>
 <div class="card">
   <!-- Top header: dark band with name + badge -->
-  <div class="card-top" style="background:#c084fc">
+  <div class="card-top" style="background:#334155">
     <span class="card-name" style="color:#ffffff">Riyu</span>
-    <span class="card-el-pill" style="background:#c084fc;color:#ffffff">MULTI-ELEMENT</span>
+    <span class="card-el-pill" style="background:#334155;color:#ffffff">NONE</span>
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#c084fc;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#334155;color:#ffffff">
     Baby Dragon
   </div>
 
   <!-- Art space: stick character image here -->
-  <div class="art-box" style="border-color:#c084fc">
-    <img src="images/riyu.jpg" alt="Riyu" class="art-img"
+  <div class="art-box" style="border-color:#334155">
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/riyu.jpg" alt="Riyu" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Riyu</span>
   </div>
@@ -580,13 +583,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#d97706;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#d97706;color:#ffffff">
     Elemental Master of Quake
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#d97706">
-    <img src="images/frak.jpg" alt="Frak" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/frak.jpg" alt="Frak" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Frak</span>
   </div>
@@ -628,13 +631,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#fde68a;color:rgba(0,0,0,0.75)">
+  <div class="role-strip" style="background:#fde68a;color:#000000">
     Spinjitzu Grandmaster
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#fde68a">
-    <img src="images/master_wu.jpg" alt="Master Wu" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/master_wu.jpg" alt="Master Wu" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Master Wu</span>
   </div>
@@ -676,13 +679,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#334155;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#334155;color:#ffffff">
     Nindroid Warrior
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#334155">
-     <img src="images/pixal.jpg" alt="P.I.X.A.L." class="art-img" style="object-position:0% 25%;"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/pixal.jpg" alt="P.I.X.A.L." class="art-img" style="object-position:0% 25%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">P.I.X.A.L.</span>
   </div>
@@ -724,13 +727,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#334155;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#334155;color:#ffffff">
     Dragon Master
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#334155">
-    <img src="images/egalt.jpg" alt="Egalt" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/egalt.jpg" alt="Egalt" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Egalt</span>
   </div>
@@ -772,13 +775,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#334155;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#334155;color:#ffffff">
     Dragon Master
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#334155">
-    <img src="images/rontu.jpg" alt="Rontu" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/rontu.jpg" alt="Rontu" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Rontu</span>
   </div>
@@ -820,13 +823,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#c084fc;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#c084fc;color:#ffffff">
     Guardian of the Merged Realms
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#c084fc">
-    <img src="images/arc_dragon.jpg" alt="Arc Dragon of Focus" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/arc_dragon.jpg" alt="Arc Dragon of Focus" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Arc Dragon of Focus</span>
   </div>
@@ -868,13 +871,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#7a5230;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#7a5230;color:#ffffff">
     Earth Ninja
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#7a5230">
-    <img src="images/cole.jpg" alt="Cole" class="art-img" style="object-position:0% 10%"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/cole.jpg" alt="Cole" class="art-img" style="object-position:0% 10%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Cole</span>
   </div>
@@ -916,13 +919,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#fde047;color:rgba(0,0,0,0.75)">
+  <div class="role-strip" style="background:#fde047;color:#000000">
     Lightning Ninja
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#fde047">
-    <img src="images/jay.jpg" alt="Jay" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/jay.jpg" alt="Jay" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Jay</span>
   </div>
@@ -964,13 +967,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#334155;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#334155;color:#ffffff">
     Games Master
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#334155">
-    <img src="images/roby.jpg" alt="Roby" class="art-img" style="object-position:0% 15%;"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/roby.jpg" alt="Roby" class="art-img" style="object-position:0% 15%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Roby</span>
   </div>
@@ -1012,13 +1015,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#334155;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#334155;color:#ffffff">
     Ruler of Imperium
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#334155">
-    <img src="images/empress_beatrix.jpg" alt="Empress Beatrix" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/empress_beatrix.jpg" alt="Empress Beatrix" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Empress Beatrix</span>
   </div>
@@ -1060,13 +1063,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#444444;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#444444;color:#ffffff">
     Elemental Master of Shadow
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#444444">
-     <img src="images/lord_ras.jpg" alt="Lord Ras" class="art-img" style="object-position:0% 10%;"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/lord_ras.jpg" alt="Lord Ras" class="art-img" style="object-position:0% 10%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Lord Ras</span>
   </div>
@@ -1108,13 +1111,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#6b7280;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#6b7280;color:#ffffff">
     Elemental Master of Smoke
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#6b7280">
-    <img src="images/cinder.jpg" alt="Cinder" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/cinder.jpg" alt="Cinder" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Cinder</span>
   </div>
@@ -1156,13 +1159,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#334155;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#334155;color:#ffffff">
     Imperium Commander
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#334155">
-    <img src="images/rapton.jpg" alt="Rapton" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/rapton.jpg" alt="Rapton" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Rapton</span>
   </div>
@@ -1204,13 +1207,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#334155;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#334155;color:#ffffff">
     Imperium Agent
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#334155">
-    <img src="images/jordana.jpg" alt="Jordana" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/jordana.jpg" alt="Jordana" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Jordana</span>
   </div>
@@ -1252,13 +1255,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#8b1a1a;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#8b1a1a;color:#ffffff">
     Elemental Master of Brute Force
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#8b1a1a">
-    <img src="images/nokt.jpg" alt="Nokt" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/nokt.jpg" alt="Nokt" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Nokt</span>
   </div>
@@ -1294,19 +1297,19 @@ body {
 </div>
 <div class="card">
   <!-- Top header: dark band with name + badge -->
-  <div class="card-top" style="background:#b91c1c">
+  <div class="card-top" style="background:#1c1917">
     <span class="card-name" style="color:#ffffff">Rox</span>
-    <span class="card-el-pill" style="background:#b91c1c;color:#ffffff">FEAR</span>
+    <span class="card-el-pill" style="background:#1c1917;color:#ffffff">FEAR</span>
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#b91c1c;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#1c1917;color:#ffffff">
     Elemental Master of Fear
   </div>
 
   <!-- Art space: stick character image here -->
-  <div class="art-box" style="border-color:#b91c1c">
-    <img src="images/rox.jpg" alt="Rox" class="art-img"
+  <div class="art-box" style="border-color:#1c1917">
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/rox.jpg" alt="Rox" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Rox</span>
   </div>
@@ -1342,19 +1345,19 @@ body {
 </div>
 <div class="card">
   <!-- Top header: dark band with name + badge -->
-  <div class="card-top" style="background:#4a1d96">
+  <div class="card-top" style="background:#1e40af">
     <span class="card-name" style="color:#ffffff">Zarkt</span>
-    <span class="card-el-pill" style="background:#4a1d96;color:#ffffff">MISFORTUNE</span>
+    <span class="card-el-pill" style="background:#1e40af;color:#ffffff">MISFORTUNE</span>
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#4a1d96;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#1e40af;color:#ffffff">
     Elemental Master of Misfortune
   </div>
 
   <!-- Art space: stick character image here -->
-  <div class="art-box" style="border-color:#4a1d96">
-    <img src="images/zarkt.jpg" alt="Zarkt" class="art-img"
+  <div class="art-box" style="border-color:#1e40af">
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/zarkt.jpg" alt="Zarkt" class="art-img" style="object-position:0% 19%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Zarkt</span>
   </div>
@@ -1396,13 +1399,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#3d2b00;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#3d2b00;color:#ffffff">
     Elemental Master of Swarm
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#3d2b00">
-    <img src="images/drix.jpg" alt="Drix" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/drix.jpg" alt="Drix" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Drix</span>
   </div>
@@ -1444,13 +1447,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#4d5a1e;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#4d5a1e;color:#ffffff">
     Elemental Master of Decay
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#4d5a1e">
-    <img src="images/kur.jpg" alt="Kur" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/kur.jpg" alt="Kur" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Kur</span>
   </div>
@@ -1486,19 +1489,19 @@ body {
 </div>
 <div class="card">
   <!-- Top header: dark band with name + badge -->
-  <div class="card-top" style="background:#fa5486">
+  <div class="card-top" style="background:#334155">
     <span class="card-name" style="color:#ffffff">Dr. LaRow</span>
-    <span class="card-el-pill" style="background:#fa5486;color:#ffffff">TECHNOLOGY</span>
+    <span class="card-el-pill" style="background:#334155;color:#ffffff">NONE</span>
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#fa5486;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#334155;color:#ffffff">
     Imperium Scientist
   </div>
 
   <!-- Art space: stick character image here -->
-  <div class="art-box" style="border-color:#fa5486">
-    <img src="images/dr_larow.jpg" alt="Dr. LaRow" class="art-img"
+  <div class="art-box" style="border-color:#334155">
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/dr_larow.jpg" alt="Dr. LaRow" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Dr. LaRow</span>
   </div>
@@ -1540,13 +1543,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#334155;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#334155;color:#ffffff">
     Pyrotechnician Showman
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#334155">
-    <img src="images/dorama.jpg" alt="Dorama" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/dorama.jpg" alt="Dorama" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Dorama</span>
   </div>
@@ -1588,13 +1591,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#334155;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#334155;color:#ffffff">
     Corrupt Tournament Minister
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#334155">
-    <img src="images/bleckt.jpg" alt="Bleckt" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/bleckt.jpg" alt="Bleckt" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Bleckt</span>
   </div>
@@ -1636,13 +1639,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#7c0000;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#7c0000;color:#ffffff">
     Shatter Dragon of Chaos
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#7c0000">
-     <img src="images/thunderfang.jpg" alt="Lord Ras" class="art-img" style="object-position:0% 0%;"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/thunderfang.jpg" alt="Thunderfang" class="art-img" style="object-position:0% 0%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Thunderfang</span>
   </div>
@@ -1684,13 +1687,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#6d28d9;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#6d28d9;color:#ffffff">
     Elemental Master of Shockwave
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#6d28d9">
-    <img src="images/zeatrix.jpg" alt="Zeatrix" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/zeatrix.jpg" alt="Zeatrix" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Zeatrix</span>
   </div>
@@ -1732,13 +1735,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#334155;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#334155;color:#ffffff">
     Wolf Clan Soldier
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#334155">
-    <img src="images/wolf_mask_warrior.jpg" alt="Wolf Mask Warrior" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/wolf_mask_warrior.jpg" alt="Wolf Mask Warrior" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Wolf Mask Warrior</span>
   </div>
@@ -1780,13 +1783,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#334155;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#334155;color:#ffffff">
     Djinn Sorcerer
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#334155">
-    <img src="images/arrakore.jpg" alt="Arrakore" class="art-img" style="object-position:0% 9%;"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/arrakore.jpg" alt="Arrakore" class="art-img" style="object-position:0% 9%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Arrakore</span>
   </div>
@@ -1822,19 +1825,19 @@ body {
 </div>
 <div class="card">
   <!-- Top header: dark band with name + badge -->
-  <div class="card-top" style="background:#67e8f9">
-    <span class="card-name" style="color:#000000">Geo</span>
-    <span class="card-el-pill" style="background:#67e8f9;color:#000000">FUSION</span>
+  <div class="card-top" style="background:#f97316">
+    <span class="card-name" style="color:#ffffff">Geo</span>
+    <span class="card-el-pill" style="background:#f97316;color:#ffffff">FUSION</span>
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#67e8f9;color:rgba(0,0,0,0.75)">
+  <div class="role-strip" style="background:#f97316;color:#ffffff">
     Elemental Master of Fusion
   </div>
 
   <!-- Art space: stick character image here -->
-  <div class="art-box" style="border-color:#67e8f9">
-    <img src="images/geo.jpg" alt="Geo" class="art-img" style="object-position:0% 20%;"
+  <div class="art-box" style="border-color:#f97316">
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/geo.jpg" alt="Geo" class="art-img" style="object-position:0% 20%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Geo</span>
   </div>
@@ -1876,13 +1879,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#c2410c;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#c2410c;color:#ffffff">
     Guardian Dragon
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#c2410c">
-    <img src="images/heatwave.jpg" alt="Heatwave" class="art-img" style="object-position:0% 17%;"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/heatwave.jpg" alt="Heatwave" class="art-img" style="object-position:0% 17%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Heatwave</span>
   </div>
@@ -1924,13 +1927,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#334155;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#334155;color:#ffffff">
     High Sorceress of Mysterium
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#334155">
-    <img src="images/gandalaria.jpg" alt="Gandalaria" class="art-img" style="object-position:0% 20%;"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/gandalaria.jpg" alt="Gandalaria" class="art-img" style="object-position:0% 20%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Gandalaria</span>
   </div>
@@ -1972,13 +1975,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#7dd3fc;color:rgba(0,0,0,0.75)">
+  <div class="role-strip" style="background:#7dd3fc;color:#000000">
     Ice Ninja
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#7dd3fc">
-    <img src="images/zane.jpg" alt="Zane" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/zane.jpg" alt="Zane" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Zane</span>
   </div>
@@ -2014,19 +2017,19 @@ body {
 </div>
 <div class="card">
   <!-- Top header: dark band with name + badge -->
-  <div class="card-top" style="background:#dc2626">
+  <div class="card-top" style="background:#581c87">
     <span class="card-name" style="color:#ffffff">Lord Garmadon</span>
-    <span class="card-el-pill" style="background:#dc2626;color:#ffffff">DESTRUCTION</span>
+    <span class="card-el-pill" style="background:#581c87;color:#ffffff">DESTRUCTION</span>
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#dc2626;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#581c87;color:#ffffff">
     Dark Lord
   </div>
 
   <!-- Art space: stick character image here -->
-  <div class="art-box" style="border-color:#dc2626">
-    <img src="images/lord_garmadon.jpg" alt="Lord Garmadon" class="art-img"
+  <div class="art-box" style="border-color:#581c87">
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/lord_garmadon.jpg" alt="Lord Garmadon" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Lord Garmadon</span>
   </div>
@@ -2068,13 +2071,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#334155;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#334155;color:#ffffff">
     Imperium Soldier
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#334155">
-    <img src="images/claw_of_imperium.jpg" alt="Claw of Imperium" class="art-img" style="object-position:0% 5%;"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/claw_of_imperium.jpg" alt="Claw of Imperium" class="art-img" style="object-position:0% 5%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Claw of Imperium</span>
   </div>
@@ -2116,13 +2119,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#334155;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#334155;color:#ffffff">
     Reformed Warrior
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#334155">
-    <img src="images/koko.jpg" alt="Koko" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/koko.jpg" alt="Koko" class="art-img" style="object-position:0% 9%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Koko</span>
   </div>
@@ -2164,13 +2167,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#a3e635;color:rgba(0,0,0,0.75)">
+  <div class="role-strip" style="background:#a3e635;color:#000000">
     Elemental Master of Poison
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#a3e635">
-    <img src="images/tox.jpg" alt="Tox" class="art-img" style="object-position:0% 22%;"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/tox.jpg" alt="Tox" class="art-img" style="object-position:0% 22%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Tox</span>
   </div>
@@ -2212,13 +2215,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#fef9c3;color:rgba(0,0,0,0.75)">
+  <div class="role-strip" style="background:#fef9c3;color:#000000">
     Elemental Master of Light
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#fef9c3">
-    <img src="images/mr_pale.jpg" alt="Mr. Pale" class="art-img" style="object-position:0% 22%;"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/mr_pale.jpg" alt="Mr. Pale" class="art-img" style="object-position:0% 22%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Mr. Pale</span>
   </div>
@@ -2260,13 +2263,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#334155;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#334155;color:#ffffff">
     Living Spell
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#334155">
-    <img src="images/bonzle.jpg" alt="Bonzle" class="art-img" style="object-position:0% 10%;"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/bonzle.jpg" alt="Bonzle" class="art-img" style="object-position:0% 10%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Bonzle</span>
   </div>
@@ -2308,13 +2311,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#334155;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#334155;color:#ffffff">
     Djinjagan Dragon
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#334155">
-    <img src="images/zanth.jpg" alt="Zanth" class="art-img" style="object-position:0% 30%;"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/zanth.jpg" alt="Zanth" class="art-img" style="object-position:0% 30%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Zanth</span>
   </div>
@@ -2356,13 +2359,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#fde047;color:rgba(0,0,0,0.75)">
+  <div class="role-strip" style="background:#fde047;color:#000000">
     Lightning Dragon
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#fde047">
-    <img src="images/jiro.jpg" alt="Jiro" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/jiro.jpg" alt="Jiro" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Jiro</span>
   </div>
@@ -2404,13 +2407,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#e0e7ff;color:rgba(0,0,0,0.75)">
+  <div class="role-strip" style="background:#e0e7ff;color:#000000">
     Elemental Master of Wind
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#e0e7ff">
-    <img src="images/euphrasia.jpg" alt="Euphrasia" class="art-img" style="object-position:0% 30%;"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/euphrasia.jpg" alt="Euphrasia" class="art-img" style="object-position:0% 30%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Euphrasia</span>
   </div>
@@ -2452,13 +2455,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#334155;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#334155;color:#ffffff">
     Mech Racer
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#334155">
-    <img src="images/lobbo.jpg" alt="Lobbo" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/lobbo.jpg" alt="Lobbo" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Lobbo</span>
   </div>
@@ -2500,13 +2503,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#334155;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#334155;color:#ffffff">
     Junkyard Boss
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#334155">
-    <img src="images/kreel.jpg" alt="Kreel" class="art-img" style="object-position:0% 10%;"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/kreel.jpg" alt="Kreel" class="art-img" style="object-position:0% 10%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Kreel</span>
   </div>
@@ -2548,13 +2551,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#089000;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#089000;color:#ffffff">
     Guardian of the Whispering Wood
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#089000">
-    <img src="images/arc_dragon_life.jpg" alt="Arc Dragon of Life" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/arc_dragon_life.jpg" alt="Arc Dragon of Life" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Arc Dragon of Life</span>
   </div>
@@ -2596,13 +2599,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#7a5230;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#7a5230;color:#ffffff">
     Elemental Monster of Tar
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#7a5230">
-    <img src="images/earth_monster.jpg" alt="Earth Monster" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/earth_monster.jpg" alt="Earth Monster" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Earth Monster</span>
   </div>
@@ -2644,13 +2647,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#089000;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#089000;color:#ffffff">
     Elemental Monster of Mutation
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#089000">
-    <img src="images/mutation_monster.jpg" alt="Mutation Monster" class="art-img"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/mutation_monster.jpg" alt="Mutation Monster" class="art-img"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Mutation Monster</span>
   </div>
@@ -2692,13 +2695,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#7dd3fc;color:rgba(0,0,0,0.75)">
+  <div class="role-strip" style="background:#7dd3fc;color:#000000">
     Elemental Monster of Frostbite
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#7dd3fc">
-    <img src="images/ice_monster.jpg" alt="Ice Monster" class="art-img" style="object-position:0% 25%;"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/ice_monster.jpg" alt="Ice Monster" class="art-img" style="object-position:0% 25%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Ice Monster</span>
   </div>
@@ -2740,13 +2743,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#38bdf8;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#38bdf8;color:#ffffff">
     Elemental Monster of Acid
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#38bdf8">
-    <img src="images/acid_monster.jpg" alt="Acid Monster" class="art-img" style="object-position:0% 15%;"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/acid_monster.jpg" alt="Acid Monster" class="art-img" style="object-position:0% 15%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Acid Monster</span>
   </div>
@@ -2788,13 +2791,13 @@ body {
   </div>
 
   <!-- Role strip -->
-  <div class="role-strip" style="background:#e03010;color:rgba(255,255,255,0.85)">
+  <div class="role-strip" style="background:#e03010;color:#ffffff">
     Elemental Monster of Magma
   </div>
 
   <!-- Art space: stick character image here -->
   <div class="art-box" style="border-color:#e03010">
-    <img src="images/fire_monster.jpg" alt="Fire Monster" class="art-img" style="object-position:0% 50%;"
+    <img src="https://raw.githubusercontent.com/deliverator23/ninjago-top-trumps/main/images/fire_monster.jpg" alt="Fire Monster" class="art-img" style="object-position:0% 50%;"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
     <span class="art-hint" style="display:none">Fire Monster</span>
   </div>
